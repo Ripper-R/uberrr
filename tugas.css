@@ -1,0 +1,219 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.top {
+    position: fixed;
+    background-color: black;
+    color: blanchedalmond;
+    height: 50px;
+    width: 100%;
+}
+
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    cursor: pointer;
+    margin-left: 10%;
+    align-items: center;
+   padding-top : 10px;
+   font-size: 19px ;
+   
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45% ;
+    margin-right: 10%;
+}
+.rightmenu{ 
+    font-size: 20px;
+
+}
+.dropbtn {
+    background-color:transparent;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color:transparent;
+  }
+  .dropbtn:hover{
+      color: gray;
+      transition: 80ms;
+
+  }
+.bigbox{
+    background-image: url('c.jpg');
+    width:100%;
+    background-color:transparent;
+    height: 1000px;
+    
+}
+.text{
+    font-size: 20px;
+    font-weight: bold;  
+    padding-top: 120px;
+    Padding-left : 100px;
+    z-index: 1;
+    
+}
+.text .stroke{
+    color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.vd{
+    z-index: -1;
+}
+.jumbotron{
+    display: flex;
+    /* background-color: burlywood; */
+    padding: 0px 140px 0px 140px;
+    /* margin-left: 80px; */
+}
+.w-50{
+    width: 50%;
+}
+.Price {
+    font-size: 33.6px;
+    margin-bottom: 10px;
+}
+.pricing:hover{
+    transition: 100ms;
+    color: green;
+}
+.text:hover{
+    transition: 1s;
+    color: blue
+}
+.kanan h3{
+    font-size: 57px;
+    margin-bottom: 10px;
+}
+.tulis{
+    font-size: 17px;
+    line-height: 30.4px;
+    margin-bottom: 30px;
+}
+.kiri{
+    padding-left: 50px;
+}
+.btn-close{
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+    font-size: 12px;
+    font-weight: 800;
+    width: 28%;
+    height: 50px;
+    border: 1px solid black;
+}
+.btn-watch{
+    background-color: #febf43;
+    color: black;
+    font-size: 13px;
+    font-weight: 800;
+    width: 28%;
+    height: 50px;
+    border: 1px solid  #febf43;
+}
+.close{
+    transition: 500ms;
+}
+.watch{
+    transition: 500ms;
+    color: white;
+}
+.btn-watch:hover{
+    cursor: pointer;
+}
+.btn-watch:hover .watch{
+    transform:translate(10px,0);
+    color: black;
+}
+.btn-close:hover{
+    cursor: pointer;
+}
+.btn-close:hover .close{
+    transform:translate(10px,0) ;
+}
+.firstrow {
+    width : 80%;
+    padding-left: 2%;
+    height :600px;
+}
+.texts{
+    padding-left :   15%;
+    font-size    : 30px;
+}
+.texts h3{
+    font-weight: 300;
+}
+.texts p{
+    font-weight: 200 !important;
+    font-size: 20px;
+}
+.image{
+    display: flex;
+    padding-top: 1%;
+    padding-left: 7%;
+    justify-content: space-evenly;
+}
+.key{
+    margin-top :  6%;
+    width      : 10%;
+
+}
+.button{
+    margin-top  :  6%;
+    padding-left:  15%;
+    width       : 70%;
+}
+.key p{
+    font-size: 20px;
+    font-weight : bold;
+}
+.key p:hover{
+    transition: 90ms;
+    color: cadetblue;
+}
+.key :hover {
+    color : cadetblue;
+}
